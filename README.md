@@ -26,11 +26,12 @@
 
 ## Conclusions
 - The variables significant in predicting the price of a house are
-  - GrLivArea - Demand increases with years
-  - OverallQual - With increase in Temparature, the demand increases. 
-  - GarageCars  - During snow, demand is less, where as clear weather has high demand
-- R2 square for train dataset is 0.841 where as for test dataset is 0.805
-- Residuals follow a normal distribution with mean centered around zero.
+  - GrLivArea - Above grade (ground) living area square feet
+  - OverallQual - Rates the overall material and finish of the house
+  - OverallCond  - Rates the overall condition of the house
+- R2 square for train dataset for Lasso is 0.904685 where as for test dataset is 0.888776
+- R2 square for train dataset for Lasso is 0.905288 where as for test dataset is 0.888057
+- Optimal alpha value for Lasso is 0.0001 and Ridge is 0.5
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
